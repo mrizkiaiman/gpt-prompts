@@ -1,0 +1,27 @@
+[
+  {
+    "id": "3ed3caa5-058f-4ed4-96c7-7c9c2aea4523",
+    "name": "Code - Improve markdown documentation",
+    "description": "",
+    "content": "I will write my current documentation in markdown below, please improve it in every way you can (as detail as possible) and make it easier to read.\n\n{{documentation}}",
+    "model": {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5",
+      "maxLength": 12000,
+      "tokenLimit": 4000
+    }
+  },
+  {
+    "id": "cc59d39d-24f2-417f-89b0-8e8f6b5de0be",
+    "name": "Code - Generate step-by-step guide how to build a project",
+    "description": "",
+    "content": "Make me a step by step guide of how to make a {{projectStack}} project. Please explain it as detail as possible and easy to read.",
+    "model": {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5",
+      "maxLength": 12000,
+      "tokenLimit": 4000
+    },
+    "folderId": null
+  }
+]

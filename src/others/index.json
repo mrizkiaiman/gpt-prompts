@@ -1,0 +1,26 @@
+[
+  {
+    "id": "fbf08166-c725-466b-9952-b961987ad38d",
+    "name": "Prompt generator",
+    "description": "",
+    "content": "I want you to act as a ChatGPT prompt generator, I will write down the topic below, you have to generate a ChatGPT prompt based on the content of the topic, the prompt should start with \"I want you to act as \", and guess what I might do, and expand the prompt accordingly Describe the content to make it useful.\n\n{{topic}}",
+    "model": {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5",
+      "maxLength": 12000,
+      "tokenLimit": 4000
+    }
+  },
+  {
+    "id": "0eea0fd5-a171-4fab-84e0-f229a072e2ac",
+    "name": "Explain like I'm 10 years old",
+    "description": "",
+    "content": "Explain to me about {{topic}} like I'm 10 years old. Make it as detailed as possible.",
+    "model": {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5",
+      "maxLength": 12000,
+      "tokenLimit": 4000
+    }
+  }
+]

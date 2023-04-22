@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ced96c4a-d89a-45c5-abbf-3c62b780d1f8",
+    "name": "Blog-post - Generate skeleton",
+    "description": "",
+    "content": "I want you to act as a writing editor expert. Make me a skeleton for a blog post with title \"{{title}}\". Make it as detailed as possible.",
+    "model": {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5",
+      "maxLength": 12000,
+      "tokenLimit": 4000
+    }
+  },
+  {
+    "id": "599ff18f-99b2-4944-af0f-f6351ca56240",
+    "name": "Blog-post - Generate paragraph",
+    "description": "",
+    "content": "I want you to act as a writing editor expert. Generate me some paragraph with title \"{{title}}\". Make it as detailed as possible.",
+    "model": {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5",
+      "maxLength": 12000,
+      "tokenLimit": 4000
+    }
+  }
+]

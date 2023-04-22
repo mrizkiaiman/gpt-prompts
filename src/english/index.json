@@ -1,0 +1,14 @@
+[
+  {
+    "id": "db7c1fb0-ad3e-42f7-9023-5f4384a22c62",
+    "name": "English - Fix grammar mistakes, typos, and factual errors.",
+    "description": "",
+    "content": "I want you to act as my English and improver. I will write down a sentence below and you will improve it. I want you to strictly correct my grammar mistakes, typos, and factual errors.\n\n{{sentence}}",
+    "model": {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5",
+      "maxLength": 12000,
+      "tokenLimit": 4000
+    }
+  }
+]

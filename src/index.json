@@ -21,8 +21,7 @@
       "name": "GPT-3.5",
       "maxLength": 12000,
       "tokenLimit": 4000
-    },
-    "folderId": null
+    }
   },
   {
     "id": "0eea0fd5-a171-4fab-84e0-f229a072e2ac",
@@ -34,8 +33,7 @@
       "name": "GPT-3.5",
       "maxLength": 12000,
       "tokenLimit": 4000
-    },
-    "folderId": null
+    }
   },
   {
     "id": "ced96c4a-d89a-45c5-abbf-3c62b780d1f8",
@@ -72,5 +70,18 @@
       "maxLength": 12000,
       "tokenLimit": 4000
     }
+  },
+  {
+    "id": "cc59d39d-24f2-417f-89b0-8e8f6b5de0be",
+    "name": "Code - Generate step-by-step guide how to build a project",
+    "description": "",
+    "content": "Make me a step by step guide of how to make a {{projectStack}} project. Please explain it as detail as possible and easy to read.",
+    "model": {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5",
+      "maxLength": 12000,
+      "tokenLimit": 4000
+    },
+    "folderId": null
   }
 ]
