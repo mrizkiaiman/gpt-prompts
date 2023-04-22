@@ -1,0 +1,76 @@
+[
+  {
+    "id": "db7c1fb0-ad3e-42f7-9023-5f4384a22c62",
+    "name": "English - Fix grammar mistakes, typos, and factual errors.",
+    "description": "",
+    "content": "I want you to act as my English and improver. I will write down a sentence below and you will improve it. I want you to strictly correct my grammar mistakes, typos, and factual errors.\n\n{{sentence}}",
+    "model": {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5",
+      "maxLength": 12000,
+      "tokenLimit": 4000
+    }
+  },
+  {
+    "id": "fbf08166-c725-466b-9952-b961987ad38d",
+    "name": "Prompt generator",
+    "description": "",
+    "content": "I want you to act as a ChatGPT prompt generator, I will write down the topic below, you have to generate a ChatGPT prompt based on the content of the topic, the prompt should start with \"I want you to act as \", and guess what I might do, and expand the prompt accordingly Describe the content to make it useful.\n\n{{topic}}",
+    "model": {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5",
+      "maxLength": 12000,
+      "tokenLimit": 4000
+    },
+    "folderId": null
+  },
+  {
+    "id": "0eea0fd5-a171-4fab-84e0-f229a072e2ac",
+    "name": "Explain like I'm 10 years old",
+    "description": "",
+    "content": "Explain to me about {{topic}} like I'm 10 years old. Make it as detailed as possible.",
+    "model": {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5",
+      "maxLength": 12000,
+      "tokenLimit": 4000
+    },
+    "folderId": null
+  },
+  {
+    "id": "ced96c4a-d89a-45c5-abbf-3c62b780d1f8",
+    "name": "Blog-post - Generate skeleton",
+    "description": "",
+    "content": "I want you to act as a writing editor expert. Make me a skeleton for a blog post with title \"{{title}}\". Make it as detailed as possible.",
+    "model": {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5",
+      "maxLength": 12000,
+      "tokenLimit": 4000
+    }
+  },
+  {
+    "id": "599ff18f-99b2-4944-af0f-f6351ca56240",
+    "name": "Blog-post - Generate paragraph",
+    "description": "",
+    "content": "I want you to act as a writing editor expert. Generate me some paragraph with title \"{{title}}\". Make it as detailed as possible.",
+    "model": {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5",
+      "maxLength": 12000,
+      "tokenLimit": 4000
+    }
+  },
+  {
+    "id": "3ed3caa5-058f-4ed4-96c7-7c9c2aea4523",
+    "name": "Code - Improve markdown documentation",
+    "description": "",
+    "content": "I will write my current documentation in markdown below, please improve it in every way you can (as detail as possible) and make it easier to read.\n\n{{documentation}}",
+    "model": {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5",
+      "maxLength": 12000,
+      "tokenLimit": 4000
+    }
+  }
+]
